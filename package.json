@@ -85,5 +85,6 @@
   },
   "dependencies": {
     "yargs": "^17.5.1"
-  }
+  },
+  "version": "14.0.9"
 }

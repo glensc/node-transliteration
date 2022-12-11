@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
-      - run: npm version --new-version $APP_VERSION --no-git-tag-version
+      - run: yarn version --new-version $APP_VERSION --no-git-tag-version
         env:
           APP_VERSION: ${{ steps.vars.outputs.version }}
 
